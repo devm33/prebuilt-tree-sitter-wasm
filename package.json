@@ -1,6 +1,6 @@
 {
   "name": "prebuilt-tree-sitter-wasm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A set of prebuilt tree-sitter wasm assets",
   "scripts": {
     "build": "./build.sh"
