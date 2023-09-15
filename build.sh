@@ -11,7 +11,8 @@ else
 fi
 
 # Clear the output
-rm -rf *.wasm
+rm -rf out/
+mkdir out/
 
 # Build the wasm
 for lang in python javascript go ruby; do
@@ -21,3 +22,6 @@ done
 # These two have irregular paths
 npx tree-sitter build-wasm --docker node_modules/tree-sitter-typescript/typescript
 npx tree-sitter build-wasm --docker node_modules/tree-sitter-typescript/tsx
+
+# Copy the wasm files to the output directory
+cp *.wasm out/
