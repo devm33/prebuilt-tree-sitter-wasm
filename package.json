@@ -2,6 +2,15 @@
   "name": "prebuilt-tree-sitter-wasm",
   "version": "0.0.2",
   "description": "A set of prebuilt tree-sitter wasm assets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devm33/prebuilt-tree-sitter-wasm.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/devm33/prebuilt-tree-sitter-wasm/issues"
+  },
+  "homepage": "https://github.com/devm33/prebuilt-tree-sitter-wasm#readme",
   "scripts": {
     "build": "./build.sh"
   },
